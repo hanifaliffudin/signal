@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Samsat Digital Nasional</title>
+    <link rel="icon" href="/assets/img/LOGO_SIGNAL.png" type="image/x-icon" />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-not-home">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="img-fluid" src="/assets/img/LOGO_SIGNAL.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="iconify" data-icon="bi:list" data-inline="false"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/tutorial.html">Tutorial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-download px-3" href="/#download"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/informasi.html">Informasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/hubungi-kami.html">Hubungi Kami</a>
+            </li>
+          </ul>
+          <form class="d-flex mb-3 mb-lg-0">
+            <input
+              type="text"
+              class="form-control search"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-input"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Messenger Plugin Obrolan Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin Obrolan code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "104408621886277");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/id_ID/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <!--  -->
+    <div class="privacy-policy my-lg-5 mb-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h4 class="fw-bold">
+              PENGGUNAAN APLIKASI "SIGNAL"
+            </h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>DEFINISI UMUM</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            <ol>
+              <li>
+                SIGNAL adalah program aplikasi elektronik yang dirancang dan
+                dibangun untuk keperluan Layanan Pendaftaran Pengesahan STNK,
+                layanan pengesahan STNK, pembayaran PKB dan SWDKLLJ secara
+                online , elektronik dan mandiri yang selanjutnya disebut dengan
+                merk produk aplikasi Samsat Digital Nasional yang selanjutnya
+                disebut SIGNAL, yang dikelola dan dimiliki oleh PT. BOMBA
+                PASIFIK INDONESIA, berkedudukan di Jakarta, selanjutnya disebut
+                BPI.
+              </li>
+              <li>
+                KETENTUAN DAN SYARAT adalah perjanjian antara Pengguna dan BPI,
+                yang berisi seperangkat peraturan yang mengatur hak kewajiban,
+                tanggung jawab, pengguna dan BPI serta ketentuan-ketentuan dalam
+                penggunaan sistem layanan Platform SIGNAL.
+              </li>
+              <li>
+                KEBIJAKAN PRIVASI adalah ketentuan-ketentuan yang dikeluarkan
+                oleh manajemen pengelola layanan Platform SIGNAL yang isinya
+                dapat diakses di mobile Aplikasi SIGNAL berbasis android maupun
+                IOS serta samsatdigital.id berbasis Website.
+              </li>
+              <li>SITUS adalah samsatdigital.id</li>
+              <li>
+                PENGGUNA adalah pihak yang menggunakan layanan Platform SIGNAL
+                termasuk namun tidak terbatas penggunaan layanan penerbitan
+                dokumen Digital E-TBPKP , E-Pengesahan , dan E-KD.
+              </li>
+              <li>
+                PLATFORM DIGITAL adalah sistem digital yang disediakan oleh BPI
+                dan digunakan oleh pembina samsat nasional untuk peningkatan
+                pelayanan publik kepada masyarakat secara online.
+              </li>
+              <li>
+                SISTEM ADMINISTRASI MANUNGGAL SATU ATAP yang selanjutnya disebut
+                Samsat adalah serangkaian kegiatan dalam penyelenggaraan
+                Registrasi dan Identifikasi Kendaraan Bermotor, pembayaran Pajak
+                Kendaraan Bermotor, Bea Balik Nama Kendaraan Bermotor dan
+                pembayaran Sumbangan Wajib Dana Kecelakaan Lalu Lintas danJalan
+                secara terintegrasi dan terkoordinasi dalam Kantor Bersama
+                Samsat.
+              </li>
+              <li>
+                SAMSAT DIGITAL NASIONAL adalah pelayanan pengesahan STNK secara
+                online yang meliputi Registrasi dan verifikasi data Ranmor dan
+                kepemilikannya, penetapan dan pembayaran Pajak Kendaraan
+                Bermotor (PKB) dan Sumbangan Wajib Dana Kecelakaan Lalu lintas
+                Jalan (SWDKLLJ) serta penerbitan dokumen digital pengesahan
+                STNK, TBPKP dan SWDKLLJ yang dikembangkan oleh Pembina Samsat
+                Tingkat Nasional.
+              </li>
+              <li>
+                SUMBANGAN WAJIB DANA KECELAKAAN LALU LINTAS JALAN yang
+                selanjutnya disingkat SWDKLLJ adalah sumbangan tahunan yang
+                wajib dibayar oleh pemilik ranmor sebagai dana untuk
+                pertanggungan wajib kecelakaan lalu lintas jalan.
+              </li>
+              <li>
+                SURAT TANDA NOMOR KENDARAAN BERMOTOR yang selanjutnya disingkat
+                STNK adalah dokumen yang berfungsi sebagai bukti legitimasi
+                pengoperasian kendaraan bermotor yang berbentuk surat atau
+                bentuk lain yang diterbitkan Polri yang berisi identitas
+                pemilik, identitas kendaraan bermotor dan masa berlaku termasuk
+                Pengesahannya.
+              </li>
+              <li>
+                NOMOR REGISTRASI KENDARAAN BERMOTOR yang selanjutnya disingkat
+                NRKB adalah tanda atau simbol yang berupa huruf atau angka atau
+                kombinasi huruf dan angka yang memuat kode wilayah dan nomor
+                registrasi yang berfungsi sebagai identitas Ranmor.
+              </li>
+              <li>
+                SURAT KETETAPAN KEWAJIBAN PEMBAYARAN yang selanjutnya disingkat
+                SKKP adalah surat yang digunakan untuk menetapkan besarnya biaya
+                administrasi STNK dan/atau TNKB, besarnya PKB, BBN-KB, dan
+                SWDKLL.
+              </li>
+              <li>
+                TANDA BUKTI PELUNASAN KEWAJIBAN PEMBAYARAN yang selanjutnya
+                disingkat TBPKP adalah tanda bukti setoran pelunasan kewajiban
+                pembayaran biaya administrasi STNK dan/atau TNKB, besarnya PKB,
+                BBNKB, dan SWDKLLJ yang telah divalidasi.
+              </li>
+              <li>
+                LAYANAN PENGESAHAN STNK adalah layanan pendaftaran pengesahan
+                STNK yang diajukan oleh pengguna terhadap kendaraan bermotor
+                yang dimiliki untuk memperoleh pengesahan dari institusi
+                Korlantas Polri, pengesahan STNK yang di maksud berlaku untuk
+                jangka waktu satu tahun.
+              </li>
+              <li>
+                PENERIMA DOKUMEN DIGITAL adalah pengguna yang telah menggunakan
+                dan selesai melakukan pengesahan tahunan atas dokumen STNK
+                melalui layanan “SIGNAL”.
+              </li>
+              <li>
+                PENERBIT DOKUMEN DIGITAL adalah pihak yang memiliki wewenang
+                menurut undang-undang dan ketentuan yang berlaku sehingga berhak
+                melakukan penerbitan dokumen secara digital dan elektronik
+                meliputi Dokumen digital E-TBPKP, E-Pengesahan dan E-KD yang
+                terdapat dalam layanan “SIGNAL”.
+              </li>
+              <li>
+                AKUN adalah identitas aplikasi pengguna layanan “SIGNAL” yang
+                berisi data-data pengguna serta data akses aplikasi diisi oleh
+                pengguna secara sadar dan sukarela dan menyetujui penyimpanan
+                serta pengelolaan data-data yang dimaksud oleh pengelola “BPI”.
+              </li>
+              <li>
+                TRANSAKSi adalah penerimaan pembayaran PKB dan SWDKLLJ dari WPKB
+                kepada PIHAK PERTAMA secara cepat, tepat dan efektif (real time
+                dan on-line) melalui jaringan payment gateway PIHAK PERTAMA.
+              </li>
+              <li>
+                WAJIB PAJAK KENDARAAN BERMOTOR YANG SELANJUTNYA DISINGKAT WPKB
+                adalah orang pribadi yang memiliki kendaraan bermotor dan
+                terdaftar pada database SAMSAT berdasarkan Nomor Induk
+                Kependudukan.
+              </li>
+              <li>
+                KENDARAAN BERMOTOR yang selanjutnya disebut Ranmor adalah
+                Kendaraan yang digerakkan oleh peralatan mekanik berupa mesin
+                selain kendaraan yang berjalan di atas rel, milik perorangan dan
+                telah terregistrasi pada Polri.
+              </li>
+              <li>
+                PENGESAHAN STNK adalah kegiatan pengawasan Regident Ranmor
+                secara berkala terhadap Ranmor yang tidak mengalami perubahan
+                fisik dan kepemilikan serta telah membayar PKB dan SDWKLLJ
+                dengan memberikan tanda cap dan/atau paraf pada kolom pengesahan
+                STNK atau pembubuhan tanda tangan digital pada e-pengesahan STNK
+                yang berlaku selama 1 (satu) tahun.
+              </li>
+              <li>
+                ELEKTRONIK PENGESAHAN STNK yang selanjutnya disebut e-pengesahan
+                STNK adalah bukti pengesahan STNK yang dihasilkan oleh sistem
+                pengesahan STNK Korlantas Polri dalam bentuk dokumen elektronik
+                berupa simbol dan/atau kode pengesahan pada aplikasi Samsat
+                Digital Nasional yang berfungsi sebagai pengganti cap dan tanda
+                tangan pada kolom pengesahan STNK yang berlaku 1(satu) tahun.
+              </li>
+              <li>
+                ELEKTRONIK TANDA BUKTI PELUNASAN KEWAJIBAN PEMBAYARAN yang
+                selanjutnya disingkat e-TBPKP atau dokumen lain yang
+                dipersamakan yaitu Surat Ketetapan Pajak Daerah yang dikeluarkan
+                Badan Pendapatan Daerah Provinsi setempat dalam bentuk dokumen
+                elektronik pada Aplikasi Samsat Digital Nasional sebagai bukti
+                telah dilunasinya pembayaran PKB dan SWDKLLJ.
+              </li>
+              <li>
+                ELEKTRONIK KARTU DANA yang selanjutnya disingkat e-KD adalah
+                tanda bukti pembayaran SWDKLLJ oleh wajib pajak dalam bentuk
+                digital.
+              </li>
+              <li>
+                FACE RECOGNITION adalah Sistem teknologi pencocokan wajah yang
+                membandingkan biometrik foto wajah yang ada pada database e-KTP
+                dengan biometrik foto wajah yang diambil secara langsung melalui
+                Platform Samsat Digital Nasional.
+              </li>
+              <li>
+                PENGIRIMAN adalah Proses yang dapat dipilih pengguna apabila
+                ingin menerima dokumen fisik dari pihak PENERBIT
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>
+              KETENTUAN DAN SYARAT
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            <ol>
+              <li>
+                Layanan yang disediakan oleh SIGNAL, berlaku untuk Pengguna.
+                (Lampiran).
+              </li>
+              <li>
+                Pengguna yang telah mendaftar berhak bertindak, sebagai : 1.
+                Pemohon Pelayanan Pengesahan STNK.
+              </li>
+              <li>
+                Pengguna memahami dan setuju bahwa SIGNAL adalah sistem aplikasi
+                sebagai media perantaraan dari pertemuan pengguna secara online
+                terhadap sistem pengesahan STNK Korlantas Polri, yang seluruh
+                transaksinya dilaksanakan dengan sistem online.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>
+              PENGGUNA APLIKASI SIGNAL
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            <ol>
+              <li>
+                Pengguna yang bertindak sebagai Pemohon wajib bertransaksi
+                melalui prosedur transaksi yang telah ditetapkan oleh SIGNAL.
+                Pengguna melakukan pembayaran dengan menggunakan metode yang
+                telah dipilih dengan kode bayar yang ditampilkan oleh SIGNAL.
+              </li>
+              <li>
+                Pendaftaran Aplikasi, untuk tujuan penggunaan Aplikasi, Pengguna
+                harus memberikan persetujuannya atas syarat dan ketentuan ini
+                dengan tindakan mengklik persetujuan secara elektronik
+                sebagaimana tertera pada akhir dari ketentuan dan syarat ini
+                dengan membuat Akun Pengguna setuju bahwa Aplikasi akan
+                mengirimkan pesan teks informatif melalui email dan juga
+                SMS(short message service) sebagai bagian dari penggunaan atas
+                Aplikasi.
+              </li>
+              <li>
+                Untuk tujuan mendaftar dan memelihara Akun, Pengguna diwajibkan
+                untuk menyerahkan informasi tertentu kepada SIGNAL, dengan
+                mengisi form pendaftaran akun, termasuk namun tidak terbatas
+                kepada nik, nama, alamat dan foto ktp dan face recognition, yang
+                direkomendasikan oleh SIGNAL. Perubahan data oleh Pengguna wajib
+                diberitahuan kepada SIGNAL. Segala informasi diberikan kepada
+                SIGNAL adalah benar dan pengguna bertanggung jawab penuh atas
+                kebenaran informasi tersebut masa berlaku aktif ijin-ijin
+                merupakan syarat mutlak bagi Pengguna untuk dapat disetujuinya
+                dan atau ditutupnya akses Akun Pengguna oleh SIGNAL.
+              </li>
+              <li>
+                Pengguna saat melakukan Pemohonan bertanggungjawab membaca
+                memahami dan menyetujui diskripsi yang disajikan oleh system
+                aplikasi SIGNAL, sebelum melakukan pendaftaran Permohonan,
+                Pengguna mengikatkan diri secara hukum bahwa data atau informasi
+                yang di berikan dan atau diajukan adalah benar.
+              </li>
+              <li>
+                Pembayaran atas biaya penetapan Pajak Kendaraan Bermotor (PKB)
+                dan Sumbangan Wajib Dana Kecelakaan Lalu lintas Jalan (SWDKLLJ)
+                termasuk biaya layanan penggunaan sistem aplikasi oleh pengguna
+                wajib dilakukan segera mungkin dengan menggunakan kode bayar
+                yang diterbitkan melalui kanal pembayaran yang telah di tentukan
+                pada SIGNAL. SIGNAL berhak membatalkan transaksi tanpa
+                pemberitahuan terlebih dahulu kepada pihak pengguna, pengguna
+                tidak berhak untuk mengajukan klaim atau tuntutan atas
+                pembatalan tersebut.
+              </li>
+              <li>
+                Pengembalian 100%, hanya dapat dilakukan dalam keadaan apabila
+                dana milik pengguna yang telah terbayarkan pada kanal pembayaran
+                dan atau bank presepsi dengan tujuan pembayaran Pajak Kendaraan
+                Bermotor (PKB) dan Sumbangan Wajib Dana Kecelakaan Lalu lintas
+                Jalan (SWDKLLJ) berstatus gagal di terima oleh pihak Badan
+                Pendapatan Daerah.
+              </li>
+              <li>
+                Keputusan management BPI yang di tetapkan sebagai jawaban dan
+                solusi terhadap complain yang diajukan oleh pengguna melalui
+                Layanan resolusi adalah keputusan yang bersifat final yang tidak
+                dapat diganggu gugat oleh pihak manapun.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>KERAHASIAAN</h5>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col sk">
+            SIGNAL dan Pengguna, wajib melindungi dan menjaga kerahasiaan
+            seluruh data, informasi atau dokumen dalam bentuk apapun yang
+            diperolehnya, data Informasi dan dokumen-dokumen baik sebagian atau
+            seluruhnya tidak boleh diberikan atau dipublikasikan baik secara
+            langsung maupun tidak langsung kepada pihak lain dan tetap
+            mengikatkan diri dalam jaminan kerahasiaan ini berlaku seterusnya
+            hingga waktu tidak tertentu, meskipun jangka waktu berakhir karena
+            sebab apapun tanpa ada yang dikecualikan. Tuntutan hukum dari
+            kelalaian dan atau penyalahgunaan data dan informasi menjadi
+            tanggungjawab dari yang melakukan kelalaian dan atau penyalahgunaan
+            tersebut.
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>
+              HAK KEKAYAAN INTELEKTUAL (INTELLECTUAL PROPERTY RIGHT)
+            </h5>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col sk">
+            Seluruh hak kekayaan intelektual (intellectual property right), atas
+            Aplikasi SIGNAL melekat dan milik PT. BOMBA PASIFIK INDONESIA dan PT
+            BOMBA PASIFIK INDONESIA memegang seluruh hak dan manfaat yang
+            diberikan undang-undang sehubungan dengan hak kekayaan intelektual
+            (intellectual property right) atas Aplikasi SIGNAL.
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>
+              KEADAAN MEMAKSA (FORCE MAJEURE)
+            </h5>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col sk">
+            Tidak ada satu pihak pun yang dinyatakan telah melakukan kelalaian
+            atau pelanggaran terhadap isi/ketentuan dari perjanjian ini apabila
+            hal tersebut disebabkan karena terjadinya force majeure. Hal-hal
+            yang termasuk force majeure dalam perjanjian ini adalah peristiwa
+            atau kejadian yang berada diluar kemampuan, termasuk namun tidak
+            terbatas pada sabotase peperangan peraturan/kebijaksanaan pemerintah
+            bencana alam, kebakaran huru-hara, dan bencana lain. Pemberitahuan
+            selambat-lambatnya 2x24 jam terhitung sejak tanggal terjadinya force
+            majeure. Keterlambatan atau kelalaian pemberitahuan mengakibatkan
+            tidak diakuinya peristiwa tersebut sebagai force majeure oleh pihak
+            lainnya.
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <h5>DISCLAIMER</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            SIGNAL tidak bertanggungjawab atas tidak tersampaikannya
+            data/informasi yang disampaikan oleh Pengguna melalui berbagai jenis
+            saluran komunikasi (e-mail, sms, online form) karena faktor
+            kesalahan teknis yang tidak diduga-duga sebelumnya, dan SIGNAL tidak
+            bertanggungjawab atas segala kesalahan dan keterlambatan memperbarui
+            data atau informasi, atau segala kerugian yang timbul karena
+            tindakan yang berkaitan dengan penggunaan data/informasi yang
+            disajikan Pengguna. Untuk keamaan SIGNAL berhak untuk memuat tidak
+            memuat, mengedit, dan/atau menghapus data/informasi yang disampaikan
+            oleh Pengguna. SIGNAL tidak bertanggungjawab atas kerugian atau
+            kendala yang timbul atas penyalahgunaan Akun Pengguna oleh Pihak
+            Ketiga manapun.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h5>
+              DOMISILI HUKUM DAN PENYELESAIAN PERSELISIHAN DAN LAIN-LAIN
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            Ketentuan dan syarat ini tunduk pada hukum dan peraturan
+            perundang-undangan yang berlaku di Indonesia. Penyelesaian segala
+            perselisihan maupun penafsiran diselesaikan dengan cara musyawarah
+            untuk mufakat, dalam hal tidak tercapai mufakat, maka penyelesaian
+            perselisihan dilaksanakn pada domilisi hukum Kantor Kepaniteraan
+            Pengadilan Negeri Jakarta Selatan.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            Ketentuan dan syarat ini sewaktu-waktu dapat berubah tanpa ada
+            pemberitahuan terlebih dahulu.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><h5>PENGGUNA SETUJU</h5></div>
+        </div>
+        <div class="row">
+          <div class="col"><h5>Lampiran</h5></div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            Layanan oleh "SIGNAL", berlaku bagi Pengguna meliputi:
+          </div>
+        </div>
+        <div class="row">
+          <div class="col sk">
+            <ol>
+              <li>
+                Menyediakan aplikasi berbasis Mobile Apps dan atau berbasis web
+                sebagai alat yang menghubungkan sistem pengesahan STNK Korlantas
+                Polri dengan pengguna melalui system aplikasi SIGNAL dengan
+                keluaran dokumen digital antara lain namun tidak terbatas
+                E-Pengesahan, E-TBPKP dan E-KD,
+              </li>
+              <li>Menyediakan pusat bantuan (help desk),</li>
+              <li>
+                Memberikan pengetahuan penggunaan aplikasi SIGNAL kepada
+                pengguna,
+              </li>
+              <li>
+                Menyediakan media informasi layanan SIGNAL hingga masuk kedalam
+                aplikasi SIGNAL sehingga dapat diakses Pengguna,
+              </li>
+              <li>
+                Menyediakan History layanan yang telah di lakukan pengguna.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <footer>
+      <div class="container-fluid footer">
+        <div
+          class="row justify-content-lg-between justify-content-start align-items-start"
+        >
+          <div class="col-auto" style="margin-top: -10px;">
+            <div class="d-flex align-items-center">
+              <img
+                class="img-fluid"
+                src="assets/img/LOGO_SIGNAL_footer.png"
+                alt="logo"
+              />
+              <div
+                class="vl mx-3"
+                style="border-left: 1px solid white; height: 29px;"
+              ></div>
+              <div class="" style="font-weight: 800; font-size: 14px;">
+                Dimana Saja, Kapan Saja, <br />
+                Dalam Satu Genggaman <br />
+                dan One Stop Service
+              </div>
+            </div>
+          </div>
+          <div class="col-auto my-3 my-sm-0">
+            <div class="container-fluid p-0">
+              <div class="row">
+                <div class="col">
+                  <a href="mengenai-signal.html">Mengenai SIGNAL</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="faq.html">FAQ</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="kantor-samsat.html">Kantor Korlantas</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="/hubungi-kami.html">Hubungi Kami</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex">
+              <a
+                href="https://www.facebook.com/samsatdigital.id"
+                class="socmed"
+                target="_blank"
+              >
+                <span
+                  class="iconify"
+                  data-icon="bx:bxl-facebook"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://twitter.com/SamsatDigital"
+                class="socmed"
+                target="_blank"
+              >
+                <span
+                  class="iconify"
+                  data-icon="ant-design:twitter-outlined"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://instagram.com/samsatdigital"
+                class="socmed"
+                target="_blank"
+              >
+                <span
+                  class="iconify"
+                  data-icon="akar-icons:instagram-fill"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://vt.tiktok.com/ZSJCN65dp/"
+                class="socmed"
+                target="_blank"
+              >
+                <span
+                  class="iconify"
+                  data-icon="cib:tiktok"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCtK-XNKxnBr-U8-qoLWP5SA"
+                class="socmed"
+                target="_blank"
+              >
+                <span
+                  class="iconify"
+                  data-icon="ant-design:youtube-filled"
+                  data-inline="false"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid copyright border-top text-center text-xl-start"
+      >
+        <div
+          class="row align-items-start justify-content-center justify-content-lg-start"
+        >
+          <div class="col-sm-auto col">
+            © Samsat Digital Nasional 2021 All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- script.js -->
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
