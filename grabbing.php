@@ -13,12 +13,12 @@ include('simple_html_dom.php');
 $html = file_get_html('https://korlantas.polri.go.id/category/lainnya/');
 $list = $html->find('ul[class="penci-wrapper-data penci-grid"]',0);
 $artikel = $list->find('article');
-$tanggal = $list->find('time');
+$tanggal = $list->find('span[class="otherl-date"]',0)->find('time');
 // for($i=0;$i<sizeof($artikel);$i++){
 for($i=0;$i<3;$i++){
   echo $artikel[$i];
   echo "<br>";
-  echo $tanggal[$i];
+  // echo $tanggal[$i];
 }
 ?>
   <img class="tes" src="tes" alt="">
@@ -30,9 +30,10 @@ for($i=0;$i<3;$i++){
     // .getAttribute("data-src")
     var images = document.querySelectorAll(".penci-image-holder");
     var gambar = document.querySelectorAll(".tes");
+    var tanggal = document.querySelectorAll(".otherl-date .entry-date");
     for(let i=0;i<images.length;i++){
       let imageURL = images[i].getAttribute("data-src");
-      // console.log(imageURL);
+      console.log(tanggal);
       // console.log(gambar[i]);
       gambar[i].src = imageURL;
     }
