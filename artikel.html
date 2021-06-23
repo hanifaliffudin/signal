@@ -102,7 +102,7 @@
     <!--  -->
     <div class="container-fluid my-lg-5 informasi">
       <div class="row justify-content-center justify-content-md-between">
-        <div class="col-auto mb-4">
+        <div class="col-auto mb-4 d-none d-lg-block">
           <div class="card informasi-nav" style="width: 15rem;">
             <div class="card-header">
               Informasi
@@ -113,70 +113,105 @@
               </li>
               <li class="list-group-item"><a href="#">Berita Korlantas</a></li>
               <li class="list-group-item"><a href="video.html">Video</a></li>
-              <li class="list-group-item"><a href="#">Infographic</a></li>
+              <li class="list-group-item">
+                <a href="infographic.html">Infographic</a>
+              </li>
             </ul>
           </div>
         </div>
+        <div
+          class="col informasi-nav-mobile d-lg-none d-flex justify-content-between mb-3"
+        >
+          <a class="" href="informasi.html">Home</a>
+          <a class="active" href="artikel.html">Artikel</a>
+          <a class="" href="#">Berita Korlantas</a>
+          <a class="" href="#">Video</a>
+          <a class="" href="#">Infographic</a>
+        </div>
         <div class="col-xl-9">
-          <div class="container-fluid artikel ps-md-0">
+          <div class="container-fluid artikel p-0 mb-5">
             <div class="row justify-content-center justify-content-md-start">
               <div class="col-auto">
-                <h6 class="judul-segmen">Artikel</h6>
+                <h6 class="judul-segmen d-none d-lg-block">Artikel</h6>
               </div>
             </div>
-            <div
-              class="row row-cols-1 row-cols-md-3 g-4 justify-content-center justify-content-md-start"
-            >
-              <div class="col-auto">
+            <div class="row row-cols-md-3">
+              <a
+                href="mengapa-bayar-pajak-kendaraan-bermotor.html"
+                class="col-auto mb-2"
+              >
                 <div class="card">
-                  <img
-                    src="assets/img/berita01.png"
-                    class="card-img-top thumbnail"
-                    alt="thumbnail-kabar"
-                  />
-                  <div class="card-body position-relative">
-                    <h5 class="card-title judul">
-                      Mengapa Bayar Pajak Kendaraan Bermotor?
-                    </h5>
-                    <h6 class="card-subtitle tanggal mb-3">25-07-2021</h6>
-                    <a
-                      href="mengapa-bayar-pajak-kendaraan-bermotor.html"
-                      class="position-absolute bottom-0 mb-2"
-                      >Selengkapnya
-                      <span
-                        class="iconify"
-                        data-icon="akar-icons:chevron-right"
-                        data-inline="false"
-                      ></span
-                    ></a>
+                  <div class="row">
+                    <div class="col-sm-auto col-4 pe-0">
+                      <img
+                        src="assets/img/berita01.png"
+                        class="card-img-top thumbnail h-100 rounded-3"
+                        alt="thumbnail-kabar"
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <div class="card-body position-relative pe-lg-0">
+                        <h5 class="card-title judul">
+                          Mengapa Bayar Pajak Kendaraan Bermotor?
+                        </h5>
+                        <h6
+                          class="card-subtitle tanggal mb-3 d-sm-block d-none"
+                        >
+                          25-07-2021
+                        </h6>
+                        <div
+                          class="position-absolute bottom-0 mb-2 d-sm-block d-none"
+                        >
+                          Selengkapnya
+                          <span
+                            class="iconify"
+                            data-icon="akar-icons:chevron-right"
+                            data-inline="false"
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-auto">
+              </a>
+              <a
+                href="mengapa-bayar-pajak-kendaraan-bermotor.html"
+                class="col-auto mb-2"
+              >
                 <div class="card">
-                  <img
-                    src="assets/img/berita02.png"
-                    class="card-img-top thumbnail"
-                    alt="thumbnail-kabar"
-                  />
-                  <div class="card-body position-relative">
-                    <h5 class="card-title judul">
-                      Tutorial Aplikasi SIGNAL
-                    </h5>
-                    <h6 class="card-subtitle tanggal mb-3">25-07-2021</h6>
-                    <a
-                      href="tutorial-aplikasi-signal.html"
-                      class="position-absolute bottom-0 mb-2"
-                      >Selengkapnya
-                      <span
-                        class="iconify"
-                        data-icon="akar-icons:chevron-right"
-                        data-inline="false"
-                      ></span
-                    ></a>
+                  <div class="row">
+                    <div class="col-sm-auto col-4 pe-0">
+                      <img
+                        src="assets/img/berita01.png"
+                        class="card-img-top thumbnail h-100 rounded-3"
+                        alt="thumbnail-kabar"
+                      />
+                    </div>
+                    <div class="col p-0">
+                      <div class="card-body position-relative pe-lg-0">
+                        <h5 class="card-title judul">
+                          Mengapa Bayar Pajak Kendaraan Bermotor?
+                        </h5>
+                        <h6
+                          class="card-subtitle tanggal mb-3 d-sm-block d-none"
+                        >
+                          25-07-2021
+                        </h6>
+                        <div
+                          class="position-absolute bottom-0 mb-2 d-sm-block d-none"
+                        >
+                          Selengkapnya
+                          <span
+                            class="iconify"
+                            data-icon="akar-icons:chevron-right"
+                            data-inline="false"
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
             <!-- <div class="row mt-3 justify-content-center">
               <div class="col-auto">

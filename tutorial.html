@@ -73,16 +73,33 @@
       </div>
     </nav>
     <!--  -->
-    <!-- wa button -->
-    <div class="wa-btn">
-      <a
-        href="https://api.whatsapp.com/send?phone=+6281212820899&text="
-        target="_blank"
-      >
-        <img class="wa-img" src="/assets/img/wa-btn.png"
-      /></a>
-    </div>
-    <!--  -->
+    <!-- Messenger Plugin Obrolan Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin Obrolan code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "104408621886277");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/id_ID/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
     <!--  -->
     <div class="container-fluid tutorial my-lg-5 mb-5">
       <div class="d-flex flex-column flex-md-row align-items-start">
@@ -889,7 +906,7 @@
             </div>
           </div>
           <!--  -->
-          <div class="container">
+          <!-- <div class="container">
             <div class="row">
               <div class="col">
                 <iframe
@@ -902,7 +919,7 @@
                 ></iframe>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

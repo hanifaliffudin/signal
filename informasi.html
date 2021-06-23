@@ -102,7 +102,7 @@
     <!--  -->
     <div class="container-fluid my-lg-5 informasi">
       <div class="row justify-content-center justify-content-md-between">
-        <div class="col-auto mb-4">
+        <div class="col-auto mb-4 d-none d-lg-block">
           <div class="card informasi-nav" style="width: 15rem;">
             <div class="card-header">
               Informasi
@@ -119,17 +119,24 @@
             </ul>
           </div>
         </div>
+        <div
+          class="col informasi-nav-mobile d-lg-none d-flex justify-content-between mb-3"
+        >
+          <a class="active" href="informasi.html">Home</a>
+          <a class="" href="artikel.html">Artikel</a>
+          <a class="" href="#">Berita Korlantas</a>
+          <a class="" href="#">Video</a>
+          <a class="" href="#">Infographic</a>
+        </div>
         <div class="col-xl-9">
           <div class="container-fluid berita-terbaru ps-md-0">
-            <div class="row justify-content-center justify-content-md-start">
+            <div class="row">
               <div class="col-auto">
                 <h6 class="judul-segmen">Artikel Terbaru</h6>
               </div>
             </div>
-            <div
-              class="row row-cols-1 row-cols-md-3 g-4 justify-content-center justify-content-md-start"
-            >
-              <div class="col-auto">
+            <div class="row daftar-artikel row-cols-md-3">
+              <div class="col-auto mb-2">
                 <div class="card">
                   <img
                     src="assets/img/berita01.png"
@@ -154,7 +161,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-auto">
+              <div class="col-auto mb-2">
                 <div class="card">
                   <img
                     src="assets/img/berita02.png"
@@ -181,7 +188,6 @@
               </div>
             </div>
           </div>
-          <hr />
           <div class="container-fluid my-5">
             <div class="row">
               <div class="col-12 col-md-7">
