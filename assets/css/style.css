@@ -324,12 +324,11 @@ a:hover {
 .berita-terbaru .card {
   width: 14rem;
   height: 100%;
-  box-shadow: 0px 0px 8px rgba(171, 194, 212, 0.35);
   border: none;
 }
 .berita-terbaru .thumbnail {
   object-fit: cover;
-  max-height: 150px;
+  height: 100%;
 }
 .berita-terbaru .judul {
   display: -webkit-box;
@@ -947,10 +946,12 @@ footer .socmed .iconify {
     width: 10rem;
   }
 
-  .artikel .card {
+  .artikel .card,
+  .berita-terbaru .card {
     width: 100%;
   }
-  .artikel .judul {
+  .artikel .judul,
+  .berita-terbaru .judul {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -960,7 +961,8 @@ footer .socmed .iconify {
     font-size: 14px;
     font-weight: bold;
   }
-  .artikel .card-body {
+  .artikel .card-body,
+  .berita-terbaru .card-body {
     padding: 0 10px;
   }
   .share {

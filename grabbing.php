@@ -13,39 +13,36 @@ include('simple_html_dom.php');
 $html = file_get_html('https://korlantas.polri.go.id/category/lainnya/');
 $list = $html->find('ul[class="penci-wrapper-data penci-grid"]',0);
 $artikel = $list->find('article');
-$tanggal = $list->find('span[class="otherl-date"]',0)->find('time');
 // for($i=0;$i<sizeof($artikel);$i++){
 for($i=0;$i<3;$i++){
-  echo $artikel[$i];
-  echo "<br>";
-  // echo $tanggal[$i];
-}
 ?>
-  <img class="tes" src="tes" alt="">
-  <img class="tes" src="tes" alt="">
-  <img class="tes" src="tes" alt="">
-  <div class="gambar"></div>
+<div style="display:none;"><?php echo $artikel[$i]; ?></div>
+<?php } ?>
+<img class="tes" src="" alt="">
+<div class="tanggal"></div>
+<a href="" class="link">Selengkapnya</a>
+<img class="tes" src="" alt="">
+<div class="tanggal"></div>
+<a href="" class="link">Selengkapnya</a>
+<img class="tes" src="" alt="">
+<div class="tanggal"></div>
+<a href="" class="link">Selengkapnya</a>
+  
 <script>
-    // in all browsers
-    // .getAttribute("data-src")
-    var images = document.querySelectorAll(".penci-image-holder");
-    var gambar = document.querySelectorAll(".tes");
-    var tanggal = document.querySelectorAll(".otherl-date .entry-date");
-    for(let i=0;i<images.length;i++){
-      let imageURL = images[i].getAttribute("data-src");
-      console.log(tanggal);
-      // console.log(gambar[i]);
-      gambar[i].src = imageURL;
+    var getImages = document.querySelectorAll(".penci-image-holder");
+    var htmlImages = document.querySelectorAll(".tes");
+    var getTanggal = document.querySelectorAll(".otherl-date");
+    var htmlTanggal = document.querySelectorAll(".tanggal");
+    var getURL = document.querySelectorAll(".overlay-typography");
+    var htmlURL = document.querySelectorAll(".link");
+
+    for(var i=0;i<getImages.length;i++){
+      var imageURL = getImages[i].getAttribute("data-src");
+      htmlImages[i].src = imageURL;
+      htmlTanggal[i].innerHTML = getTanggal[i].textContent;
+      htmlURL[i].href = getURL[i].href;
+      // console.log(getURL[i].href);
     }
-
-
-
-
-    // console.log(imageUrls);
-    // document.querySelector(".tes").src = imageUrl;
-
-    // or in modern browsers
-    // var imageUrl = document.querySelector(".penci-image-holder penci-lazy").dataset.src;
 </script>
 </body>
 </html>
