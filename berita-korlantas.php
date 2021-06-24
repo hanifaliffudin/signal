@@ -123,13 +123,13 @@
           class="col informasi-nav-mobile d-lg-none d-flex justify-content-between mb-3"
         >
           <a class="" href="/informasi.html">Home</a>
-          <a class="active" href="/artikel.html">Artikel</a>
-          <a class="" href="#">Berita Korlantas</a>
-          <a class="" href="#">Video</a>
-          <a class="" href="#">Infographic</a>
+          <a class="" href="/artikel.html">Artikel</a>
+          <a class="" href="/berita-korlantas.php">Berita Korlantas</a>
+          <a class="" href="/video.html">Video</a>
+          <a class="" href="/infographic.html">Infographic</a>
         </div>
         <div class="col-xl-9">
-          <div class="container-fluid berita-terbaru p-0 mb-5">
+          <div class="container-fluid berita-korlantas p-0 mb-5">
             <div class="row justify-content-center justify-content-md-start">
               <div class="col-auto">
                 <h6 class="judul-segmen d-none d-lg-block">Berita Korlantas</h6>
