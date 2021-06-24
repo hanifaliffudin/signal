@@ -108,10 +108,10 @@
               Informasi
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item active">
+              <li class="list-group-item">
                 <a href="/artikel.html">Artikel</a>
               </li>
-              <li class="list-group-item"><a href="/berita-korlantas.php">Berita Korlantas</a></li>
+              <li class="list-group-item active"><a href="/berita-korlantas.php">Berita Korlantas</a></li>
               <li class="list-group-item"><a href="/video.html">Video</a></li>
               <li class="list-group-item">
                 <a href="/infographic.html">Infographic</a>
@@ -132,7 +132,7 @@
           <div class="container-fluid berita-terbaru p-0 mb-5">
             <div class="row justify-content-center justify-content-md-start">
               <div class="col-auto">
-                <h6 class="judul-segmen d-none d-lg-block">Artikel</h6>
+                <h6 class="judul-segmen d-none d-lg-block">Berita Korlantas</h6>
               </div>
             </div>
             <?php
