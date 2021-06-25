@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-	$admin = 'info@samsatdigital.id'; //ganti email dg email admin (email penerima pesan)
+	$admin = 'hanifaliffudin@gmail.com'; //ganti email dg email admin (email penerima pesan)
 	
 	$name	= htmlentities($_POST['name']);
 	$nik	= htmlentities($_POST['nik']);
