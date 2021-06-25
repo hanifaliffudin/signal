@@ -517,8 +517,6 @@ a:hover {
 }
 
 /* kantor samsat */
-.kantor {
-}
 .kantor .alamat {
   color: #928e8e;
   font-size: 0.875rem;
@@ -578,22 +576,12 @@ footer .socmed .iconify {
 }
 
 /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-/* 
   ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
+  ##Screen = B/w 1025px to higher
 */
 
 @media (min-width: 1025px) {
   /* CSS */
-
-  .banner {
-    /* background-size: auto; */
-    /* padding-left: unset; */
-  }
   .tutorial {
     margin-top: 80px;
   }
