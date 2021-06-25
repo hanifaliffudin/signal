@@ -1,15 +1,18 @@
 <?php
 if(isset($_POST['submit'])){
-	$admin = 'hanifaliffudin@gmail.com'; //ganti email dg email admin (email penerima pesan)
+	$admin = 'info@samsatdigital.id'; //ganti email dg email admin (email penerima pesan)
 	
 	$name	= htmlentities($_POST['name']);
 	$nik	= htmlentities($_POST['nik']);
 	$phone	= htmlentities($_POST['phone']);
 	$email	= htmlentities($_POST['email']);
-	$subject	= 'NIK: '.$nik;
-	$message	= htmlentities($_POST['message']);
+	$subject	= 'Inquiry SIGNAL-'.$name;
+	$message	= $name."\r\n";
+	$message	.= $nik."\r\n";
+	$message	.= $phone."\r\n";
+	$message	.= $email."\r\n\n";
+	$message	.= htmlentities($_POST['message']);
 
-	
 	$pengirim	= 'Dari: '.$name.' <'.$email.'>';
 	
 	if(mail($admin, $subject, $message, $pengirim)){
