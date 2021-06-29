@@ -570,7 +570,8 @@
             <div class="d-flex">
               <a
                 href="/https://www.facebook.com/samsatdigital.id"
-                class="socmed"
+               class="socmed"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -581,7 +582,8 @@
               </a>
               <a
                 href="/https://twitter.com/SamsatDigital"
-                class="socmed"
+               class="socmed"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -592,7 +594,8 @@
               </a>
               <a
                 href="/https://instagram.com/samsatdigital"
-                class="socmed"
+               class="socmed"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -603,7 +606,8 @@
               </a>
               <a
                 href="/https://vt.tiktok.com/ZSJCN65dp/"
-                class="socmed"
+               class="socmed"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -614,7 +618,8 @@
               </a>
               <a
                 href="/https://www.youtube.com/channel/UCtK-XNKxnBr-U8-qoLWP5SA"
-                class="socmed"
+               class="socmed"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
