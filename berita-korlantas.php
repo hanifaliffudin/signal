@@ -160,7 +160,7 @@
             <?php } ?>
             <div class="row row-cols-md-3 justify-content-evenly">
               <a
-                href="dummy"
+                href="dummy" target="_blank"
                 class="col-auto mb-2 link mb-3"
               >
                 <div class="card">
@@ -197,7 +197,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -232,7 +232,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -267,7 +267,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -302,7 +302,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -337,7 +337,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -372,7 +372,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -407,7 +407,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
@@ -442,7 +442,7 @@
                   </div>
                 </div>
               </a>
-              <a href="dummy" class="col-auto mb-2 link mb-3">
+              <a href="dummy" target="_blank" class="col-auto mb-2 link mb-3">
                 <div class="card">
                   <div class="row">
                     <div class="col-sm-auto col-4 pe-0">
