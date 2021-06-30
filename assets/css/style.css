@@ -585,6 +585,11 @@ footer .socmed .iconify {
   .tutorial {
     margin-top: 80px;
   }
+  .berita-korlantas .thumbnail,
+  .artikel-terbaru .thumbnail {
+    object-fit: cover;
+    height: 100%;
+  }
 }
 
 /* khusus navbar */

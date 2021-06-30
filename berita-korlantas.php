@@ -150,7 +150,7 @@
             </div>
             <?php
             include('simple_html_dom.php');
-            $html = file_get_html('https://korlantas.polri.go.id/category/lainnya/');
+            $html = file_get_html('https://korlantas.polri.go.id/category/lalu-lintas/');
             $listBerita = $html->find('ul[class="penci-wrapper-data penci-grid"]',0);
             $artikel = $listBerita->find('article');
             // for($i=0;$i<sizeof($artikel);$i++){
