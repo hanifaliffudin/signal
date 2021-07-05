@@ -327,11 +327,7 @@ a:hover {
   height: 100%;
   border: none;
 }
-.berita-korlantas .thumbnail,
-.artikel-terbaru .thumbnail {
-  object-fit: cover;
-  height: 160px;
-}
+
 .berita-korlantas .judul,
 .artikel-terbaru .judul {
   display: -webkit-box;
@@ -584,6 +580,11 @@ footer .socmed .iconify {
   /* CSS */
   .tutorial {
     margin-top: 80px;
+  }
+  .berita-korlantas .thumbnail,
+  .artikel-terbaru .thumbnail {
+    object-fit: cover;
+    height: 160px;
   }
 }
 
