@@ -327,7 +327,11 @@ a:hover {
   height: 100%;
   border: none;
 }
-
+.berita-korlantas .thumbnail,
+.artikel-terbaru .thumbnail {
+  object-fit: cover;
+  height: 160px;
+}
 .berita-korlantas .judul,
 .artikel-terbaru .judul {
   display: -webkit-box;
