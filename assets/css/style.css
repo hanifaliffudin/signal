@@ -613,11 +613,6 @@ footer .socmed .iconify {
     background-color: transparent;
     color: black;
   }
-  .berita-korlantas .thumbnail,
-  .artikel-terbaru .thumbnail {
-    object-fit: cover;
-    height: 160px;
-  }
 }
 
 /* 
