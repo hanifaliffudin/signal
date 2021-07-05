@@ -330,7 +330,7 @@ a:hover {
 .berita-korlantas .thumbnail,
 .artikel-terbaru .thumbnail {
   object-fit: cover;
-  height: 100%;
+  height: 160px;
 }
 .berita-korlantas .judul,
 .artikel-terbaru .judul {

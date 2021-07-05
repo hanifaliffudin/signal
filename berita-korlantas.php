@@ -137,7 +137,7 @@
         >
           <a class="" href="/informasi.html">Home</a>
           <a class="" href="/artikel.html">Artikel</a>
-          <a class="" href="/berita-korlantas.php">Berita Korlantas</a>
+          <a class="active" href="/berita-korlantas.php">Berita Korlantas</a>
           <a class="" href="/video.html">Video</a>
           <a class="" href="/infographic.html">Infographic</a>
         </div>
