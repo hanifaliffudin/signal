@@ -330,7 +330,7 @@ a:hover {
 .berita-korlantas .thumbnail,
 .artikel-terbaru .thumbnail {
   object-fit: cover;
-  height: 160px;
+  height: 100%;
 }
 .berita-korlantas .judul,
 .artikel-terbaru .judul {
@@ -613,6 +613,11 @@ footer .socmed .iconify {
     background-color: transparent;
     color: black;
   }
+  .berita-korlantas .thumbnail,
+  .artikel-terbaru .thumbnail {
+    object-fit: cover;
+    height: 160px;
+  }
 }
 
 /* 
@@ -681,6 +686,12 @@ footer .socmed .iconify {
   .privacy-policy {
     margin-top: 100px;
     padding: 0;
+  }
+
+  .berita-korlantas .thumbnail,
+  .artikel-terbaru .thumbnail {
+    object-fit: cover;
+    height: 160px;
   }
 }
 
@@ -784,6 +795,11 @@ footer .socmed .iconify {
   .berita-korlantas,
   .artikel-terbaru {
     padding-right: 0;
+  }
+  .berita-korlantas .thumbnail,
+  .artikel-terbaru .thumbnail {
+    object-fit: cover;
+    height: 160px;
   }
   .video .video-player {
     width: 100%;
