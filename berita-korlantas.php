@@ -127,7 +127,7 @@
               <li class="list-group-item active"><a href="/berita-korlantas.php">Berita Korlantas</a></li>
               <li class="list-group-item"><a href="/video.html">Video</a></li>
               <li class="list-group-item">
-                <a href="/infographic.html">Infographic</a>
+                <a href="/infografis.html">Infographic</a>
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@
           <a class="" href="/artikel.html">Artikel</a>
           <a class="active" href="/berita-korlantas.php">Berita Korlantas</a>
           <a class="" href="/video.html">Video</a>
-          <a class="" href="/infographic.html">Infographic</a>
+          <a class="" href="/infografis.html">Infografis</a>
         </div>
         <div class="col-xl-9">
           <div class="container-fluid berita-korlantas p-0 mb-5">
